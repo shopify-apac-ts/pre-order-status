@@ -3,7 +3,7 @@
 client_id = "98bfb33cb5c175815e9045c4cb888394"
 name = "pre-order-item--status"
 handle = "pre-order-item-status"
-application_url = "https://provides-edges-wn-daughter.trycloudflare.com"
+application_url = "https://stop-essential-jackets-filling.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_orders,write_products"
 
 [auth]
 redirect_urls = [
-  "https://provides-edges-wn-daughter.trycloudflare.com/auth/callback",
-  "https://provides-edges-wn-daughter.trycloudflare.com/auth/shopify/callback",
-  "https://provides-edges-wn-daughter.trycloudflare.com/api/auth/callback"
+  "https://stop-essential-jackets-filling.trycloudflare.com/auth/callback",
+  "https://stop-essential-jackets-filling.trycloudflare.com/auth/shopify/callback",
+  "https://stop-essential-jackets-filling.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

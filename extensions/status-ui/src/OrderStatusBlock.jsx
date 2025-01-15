@@ -17,7 +17,7 @@ function ItemStatus() {
   const inStockDate = useAppMetafields({namespace: "custom", key: "item_in_stock_date"})[0]?.metafield?.value;
   const itemStatus = useAppMetafields({namespace: "custom", key: "order_status"})[0]?.metafield?.value.replace(/\["|\"]/g, ""); // Remove [" and "]
   // banner style based on item status
-  const bannerStyle = itemStatus.includes("EXPIRED") ? "critical" : "success";
+  const bannerStyle = itemStatus?.includes("EXPIRED") ? "critical" : "success";
 
   return (
     <Banner status={bannerStyle}>
